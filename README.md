@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# TechWind
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TechWind is a news website inspired from TechCrunch.This website incorporates numbers of news fetched from json database.This website is build using ReactJS framework.
 
-## Available Scripts
+## Run this Application
 
-In the project directory, you can run:
+Clone the repository.
+In the project directory,install the dependencies using npm i.
+Run the application in the development mode using npm start.
 
-### `npm start`
+### Technologies used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application was developed using the following technologies
+1.React JS ^18.2.0
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Dependencies
+     testing-library/react": "^13.4.0,
+     @testing-library/user-event": "^13.5.0,
+     react: ^18.2.0,
+     react-dom: ^18.2.0,
+     react-router-dom: ^6.6.1,
+     react-scripts: 5.0.1,
+     web-vitals: ^2.1.4
+     
+### Walkthrough
+TechWind is the news website with collection of informative and detailed news.Entire news can be read by clicking on heading of each news.
+In this I have used useState,useEffect,custom hook called as useData and useParams.Also concepts such as props,map are used.
+This website is made mobile friendly by using media-query.
+SEO using On-pageOptimization in done by add meta-title,description,keyword,error page is designed wih a link to home page,appropriate content fro alt is given. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
